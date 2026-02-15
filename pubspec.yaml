@@ -1,0 +1,109 @@
+name: rental_room
+description: "A new Flutter project."
+
+
+publish_to: 'none' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+
+
+
+
+
+#---------- PACKAGES -------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utilities Packages
+
+
+  # Icons  
+  iconsax: ^0.0.8
+  cupertino _icons: ^1.0.8
+
+  # Statemanagement
+
+
+
+  # Product Specifications
+
+#----------- ./ PACKAGES ENDS ---------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  
+  
+  
+  
+  flutter_lints: ^6.0.0
+
+
+
+
+
+flutter:
+  uses-material-design: true
+
+  #------------- LOCAL ASSETS ---------#
+  assets:
+    - assets/logos
+    - assets/icons
+    - assets/images
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
