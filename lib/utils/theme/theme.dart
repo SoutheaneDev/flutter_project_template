@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rental_room/utils/theme/custom_themes/elevated_button_theme.dart';
 import 'package:rental_room/utils/theme/custom_themes/text_theme.dart';
 
 class TAppTheme {
@@ -11,6 +12,7 @@ class TAppTheme {
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.white,
     textTheme: TTextTheme.lightTextTheme,
+    elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
   );
   static final ThemeData darkTheme = ThemeData(
     useMaterial3: true,
@@ -19,5 +21,6 @@ class TAppTheme {
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.black,
     textTheme: TTextTheme.darkTextTheme,
+    elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme,
   );
 }
