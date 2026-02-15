@@ -49,7 +49,7 @@ class TTextTheme {
     bodySmall: TextStyle().copyWith(
       fontSize: 10,
       fontWeight: FontWeight.w400,
-      color: Colors.black,
+      color: Colors.black.withValues(alpha: 0.5),
     ),
 
     labelLarge: TextStyle().copyWith(
@@ -60,7 +60,7 @@ class TTextTheme {
     labelMedium: TextStyle().copyWith(
       fontSize: 12,
       fontWeight: FontWeight.w400,
-      color: Colors.black,
+      color: Colors.black.withValues(alpha: 0.5),
     ),
   );
   static final TextTheme darkTextTheme = TextTheme(
@@ -109,7 +109,7 @@ class TTextTheme {
     bodySmall: TextStyle().copyWith(
       fontSize: 10,
       fontWeight: FontWeight.w400,
-      color: Colors.white,
+      color: Colors.white.withValues(alpha: 0.5),
     ),
 
     labelLarge: TextStyle().copyWith(
@@ -120,7 +120,7 @@ class TTextTheme {
     labelMedium: TextStyle().copyWith(
       fontSize: 12,
       fontWeight: FontWeight.w400,
-      color: Colors.white,
+      color: Colors.white.withValues(alpha: 0.5),
     ),
   );
 }
